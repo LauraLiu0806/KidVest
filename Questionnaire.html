@@ -4,16 +4,34 @@
     <head>
         <title>Questionnaire</title>
         <link rel="stylesheet" href="Questionnaire.css">
-
+        <script src="jquery-3.3.1.min.js"></script>
     </head>
     <body>
         <button onclick="questionnaire()">START THE GAME</button>
         <h1><ins>Points</ins></h1>
+        <h2 id="points">0</h2>
         <script>
             function questionnaire(){
               alert("Now we are going to play a trivia game in which you can earn points that will give you coins!");
-                question1 = prompt("What is the stock market? (A) a form of investing  (B) another word for buy and sell  (C) a place where investors buy and sell stocks and bonds  (D) tradable financial assets");
-            }
+            question1 = prompt("What is the stock market? (A) a form of investing  (B) another word for buy and sell  (C) a place where investors buy and sell stocks and bonds  (D) tradable financial assets");
+                switch(question1) {
+                    case "A":
+                        alert("wrong")
+                        break;
+                    case "B":
+                        alert("wrong")
+                        break;
+                    case "C":
+                        alert("you are correct!")
+                        var coins = $("#points").text("30");
+                        break;
+                    case "D":
+                        alert("wrong")
+                        break;
+                }
+                }
+                
+            
             
         </script>
     </body>
