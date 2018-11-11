@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Level 1</title>
+        <link rel="stylesheet" href="Level1.css">
+
+    </head>
+    <body>
+        <h1 id="dialoguebox">Rising Bull: Every adventurer needs a weapon. You have a valuable Wooden Toy Sword in your inventory. Sell it in the shop and purchase the Bronze Sword with the coins you earned. 
+</h1>
+        <img src="bull.png" id="bull">
+        <button id="sell" onclick="soldAlert()" ><a href="Questionnaire.html">sell Wooden Toy Sword for 20 coins</a></button>
+        
+        <script>
+            function soldAlert() {
+                alert("You have gained 20 coins");
+                response = prompt("Do you want to buy the bronze sword? (Y/N)");
+  if(response == "Y"){
+      alert("The bronze sword is now in your inventory. You are back to 0 coins");
+  }
+  if(response == "N"){
+       alert("You now have no means of defense, you should purchase your wooden sword again");
+      }
+              
+            }
+            
+
+</script>
+    </body>
+
+</html>

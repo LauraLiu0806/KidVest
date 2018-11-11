@@ -1,0 +1,47 @@
+body{
+    background-color:lavender;
+}
+#content{
+        width:900px;
+
+}
+h1{
+    background-color: aliceblue;
+    font-family:"Amethyst";
+    padding: 20px 20px;
+    color: blue;
+}
+button{
+    font-family:"Bright Young Things";
+    font-size: 20px;
+}
+#dash{
+    border: midnightblue solid 5px;
+    border-radius:5px;
+    background-color:whitesmoke;
+}
+#avatar{
+    position:relative;
+    left:35px;
+    top:45px;
+    width: 110px;
+}
+#stats{
+    position:relative;
+    left:200px;
+    top:-100px;
+    box-sizing: border-box;
+    width:200px;
+}
+#levels{
+    font-family:"Bright Young Things";
+    border: darkblue 5px solid;
+    border-radius: 5px;
+    padding: 5px 30px;
+    position:relative;
+}
+#woodensword{
+    position:relative;
+    left:900px;
+    top: -440px;
+}
